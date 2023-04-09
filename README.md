@@ -4,4 +4,4 @@ First the dataset for learning embeddings of the textual data in "toxity_data.cs
 
 Second, the embedddings of the text are learned from "transfer_learning_text" in a transfer learned manner.
 
-Lastly, the LightSBM ranking model is fitted on these embedding features, with output ranks as thresholding of toxity type vector.
+Lastly, the LightGBM ranking model is fitted on these embedding features, with output ranks as thresholding of toxity type vector.
